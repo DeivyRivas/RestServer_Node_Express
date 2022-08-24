@@ -11,7 +11,7 @@ const router = Router();
 
   //peticion get
   // se llama la funsion del controlador
-  router.get('/', usuariosGet );
+  router.get('/user', usuariosGet );
 
   //peticion put
   // se pone id para identificar el id del registro a actualizar
